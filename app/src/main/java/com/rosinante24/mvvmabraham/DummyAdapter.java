@@ -3,7 +3,6 @@ package com.rosinante24.mvvmabraham;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.Toast;
 
-import com.rosinante24.mvvmabraham.databinding.ActivityMainBinding;
 import com.rosinante24.mvvmabraham.databinding.DummyRowBinding;
 
 import java.util.List;

@@ -20,4 +20,8 @@
         <item name="colorControlNormal">#c1c1c1</item>
         <item name="colorControlActivated">#f1eb3d</item>
     </style>
+
+    <style name="AppTheme.NoActionBar.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.NoActionBar.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>

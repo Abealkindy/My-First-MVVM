@@ -23,19 +23,18 @@
         android:layout_height="wrap_content">
 
 
-            <ImageView
-                android:id="@+id/image_list"
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:layout_margin="10dp"
-                android:src="@mipmap/ic_launcher_round"
-                app:imgUrl="@{vm.bImage}"/>
+            <!--<ImageView-->
+                <!--android:id="@+id/image_list"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="100dp"-->
+                <!--android:layout_margin="10dp"-->
+                <!--android:src="@mipmap/ic_launcher_round"-->
+                <!--app:imgUrl="@{vm.bImage}"/>-->
 
             <TextView
                 android:id="@+id/txt_list"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/image_list"
                 android:layout_gravity="center"
                 android:layout_margin="10dp"
                 android:background="#06e9dd"

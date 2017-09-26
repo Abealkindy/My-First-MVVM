@@ -1,5 +1,7 @@
 package com.rosinante24.mvvmabraham.POJO;
 
+import com.google.gson.annotations.SerializedName;
+
 import java.util.List;
 
 /**

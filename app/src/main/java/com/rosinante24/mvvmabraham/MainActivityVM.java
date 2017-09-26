@@ -4,9 +4,6 @@ import android.content.Context;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 
-import com.android.volley.RequestQueue;
-import com.android.volley.toolbox.StringRequest;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -17,8 +14,6 @@ import id.gits.mvvmcore.viewmodel.GitsVM;
  */
 
 public class MainActivityVM extends GitsVM{
-//    RequestQueue requestQueue;
-//    StringRequest stringRequest
     private final List<DummyDao> mList = new ArrayList<>();
     public DummyAdapter bAdapter;
     public LinearLayoutManager bLayoutManager;
@@ -26,7 +21,13 @@ public class MainActivityVM extends GitsVM{
     public MainActivityVM(Context context) {
         super(context);
 
-
+        //create dummy data
+        mList.add(new DummyDao("Hello!"));
+        mList.add(new DummyDao("Ya Halo!"));
+        mList.add(new DummyDao("Hai!"));
+        mList.add(new DummyDao("Hahai!"));
+        mList.add(new DummyDao("Yeay!"));
+        mList.add(new DummyDao("Yayayay!"));
 
         bAdapter = new DummyAdapter(mList);
         bLayoutManager = new LinearLayoutManager(context);

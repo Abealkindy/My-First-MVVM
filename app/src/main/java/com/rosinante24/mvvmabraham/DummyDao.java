@@ -6,17 +6,12 @@ package com.rosinante24.mvvmabraham;
 
 class DummyDao {
     String text;
-    String imgUrl;
-    public DummyDao(String s, String urlImage) {
+    public DummyDao(String s) {
 
-        imgUrl = urlImage;
         text = s;
     }
 
     public String getText() {
         return text;
-    }
-    public String getUrlImage(){
-        return imgUrl;
     }
 }

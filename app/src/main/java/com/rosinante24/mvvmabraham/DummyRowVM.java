@@ -13,13 +13,11 @@ import id.gits.mvvmcore.viewmodel.GitsRowVM;
 
 public class DummyRowVM extends GitsRowVM {
     public ObservableField<String> textdummy = new ObservableField<>();
-    public ObservableField<String> imagedummy = new ObservableField<>();
 
 
     public DummyRowVM(AppCompatActivity activity, DummyRowBinding binding, DummyDao item) {
         super(activity, binding, item);
         textdummy.set(item.getText());
-        imagedummy.set(item.getUrlImage());
     }
 
 }

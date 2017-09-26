@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MVVM Abraham</string>
+    <string name="title_activity_basic">Basic Act</string>
 </resources>

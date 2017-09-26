@@ -1,7 +1,5 @@
 package com.rosinante24.mvvmabraham;
 
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 
 import com.rosinante24.mvvmabraham.databinding.ActivityMainBinding;
 
